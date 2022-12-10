@@ -1,0 +1,349 @@
+.page-category{
+    padding-top: 30px;
+}
+.cat-title{
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+.list-news{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid  #ededed;
+}
+.list-news img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #ededed;
+    padding: 1px;
+}
+.list-news img:hover{
+    opacity: .7;
+}
+.list-news img h5 a{
+    font-size: 20px;
+    color: #2196f3;
+    line-height: 25px;
+}
+.list-news img h5 a:hover{
+    opacity: .7;
+}
+
+.read-more{
+    display: inline-block;
+    padding: 5px 10px;
+    background: #2196f3;
+    color: #ededed;
+    border-radius: 30px;
+}
+.read-more:hover{
+    opacity: .7;
+}
+.page-numbers{
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #2196f3;
+}
+.quatrang{
+    text-align: center;
+}
+.h1.single-title{
+    font-size: 25px;
+    font-weight: 500px;
+    color: #2196f3;
+    line-height: 30px;
+}
+.meta-single{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+}
+.meta-single span{
+    display: inline-block;
+    margin-right: 35px;
+
+}
+.single-content * {
+   font-size: 15px;
+   line-height: 23px;
+}
+.single-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+img.aligncenter{
+    display: block;
+    margin: 0 auto;
+}
+.tag-single a{
+    display: inline-block;
+    padding: 2px 10px;
+    background: #ededed;
+    border-radius: 1px;
+}
+.product-box.category-product-page {
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.woocommerce-result-count {
+    font-size: 14px;
+    color: black;
+}
+
+select.orderby {
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+    color: #2196f3;
+}
+li.woocommerce-mini-cart-item.mini_cart_item {
+    font-size: 12px;
+}
+
+a.button.wc-forward.wp-element-button {
+    color: #ecf3f9;
+    background: #2196f3;
+    margin: 4px;
+    font-weight: 100;
+}
+h1.single-title {
+    font-size: 25px;
+}
+
+th.product-name {
+    text-align: center;
+}
+
+th.product-quantity {
+    /* padding: 0px 20px; */
+    margin: 20px;
+}
+
+input#coupon_code {
+    border: #2196f3 2px soid;
+    border: #2196f3  solid 2px;
+    border-radius: 5px;
+    /* color: aqua; */
+}
+
+
+button.button.wp-element-button {
+    border: #2196f3 2px solid;
+    border-radius: 5px;
+    background: antiquewhite;
+}
+
+
+button.button.wp-element-button {
+    color: black;
+}
+
+/* trang chi tiết */
+section.related.products h2 {
+    background: #2196f3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.woocommerce-product-gallery__wrapper img {
+    padding: 40px;
+}
+
+div#product-38 {
+    /* padding: 20px; */
+}
+
+h1.product_title.entry-title {
+    margin-top: 40px;
+}
+
+.summary.entry-summary {
+    padding-top: 40px;
+}
+
+bdi {
+    color: red;
+}
+
+.input-text {
+    border: #2196f3 2px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button.single_add_to_cart_button.button.alt.wp-element-button {
+    background: #2196f3;
+    font-size: 14px;
+    font-weight: 100;
+}
+span.onsale {
+    margin-top: 20px !important;
+    margin-left: 70px !important;
+    background: #2196f3 !important;
+    font-weight: 100;
+}
+
+li.woocommerce-mini-cart-item.mini_cart_item {
+    font-size: 12px;
+}
+
+.widget_shopping_cart_content {
+    padding: 5px;
+}
+
+a.button.wc-forward.wp-element-button {
+    /* border: #256399 2px solid; */
+    padding: 3px 10px;
+    background: #2196f3;
+    border-radius: 5px;
+}
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    max-height: 30px;
+    max-width: 30px;
+}
+/*  css trang đăng ký */
+/* Full-width input fields */
+.container .section-inner input[type=text], input[type=email], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  width:100%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+input#user_login {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    width:100%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+input#wp-submit
+{
+    padding: 3px 10px;
+    background: #2196f3;
+    border-radius: 5px;
+}
+
+form#loginform {
+    max-width: 30%;
+    padding: 20px;
+}
+input#username {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    width:100%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+.section-inner {
+    /* text-align: center !important; */
+    padding-left: 30%;
+}
+button.form-submit {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #1a73e8;
+    color: aliceblue;
+}
+form#hk-registerform {
+    width: 50%;
+}
+.container .section-inner
+{
+    padding: 50px;
+    text-align: center;
+}
+.container .section-inner input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+
+.container .section-inner hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.container .section-inner button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.container .section-inner button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.container .section-inner .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.container .section-inner .signupbtn {
+  float: left;
+  width: 100%;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Clear floats */
+.container .section-inner .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* build thanh toán */
+input#billing_first_name, input#billing_last_name, input#billing_address_1, input#billing_city, input#billing_phone {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    width:100%;
+    resize: vertical;
+    padding-right: 200px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+input#billing_email
+{
+    padding-right: 200px;
+}
+input#password
+{
+    padding-right: 200px;
+}

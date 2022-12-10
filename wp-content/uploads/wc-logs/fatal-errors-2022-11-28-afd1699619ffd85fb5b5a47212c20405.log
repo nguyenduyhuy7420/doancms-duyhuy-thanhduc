@@ -1,0 +1,72 @@
+2022-11-28T03:33:55+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php:32
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php on line 32
+
+2022-11-28T05:55:22+00:00 CRITICAL Uncaught Error: Call to undefined function percentSale() in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php:59
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php on line 59
+
+2022-11-28T05:55:55+00:00 CRITICAL Uncaught Error: Call to undefined function percentSale() in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php:59
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php on line 59
+
+2022-11-28T05:55:57+00:00 CRITICAL Uncaught Error: Call to undefined function percentSale() in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php:59
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php on line 59
+
+2022-11-28T05:56:18+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_regular() in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php:59
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php on line 59
+
+2022-11-28T05:56:28+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_regular() in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php:59
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php on line 59
+
+2022-11-28T06:05:56+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\wordpress\wp-content\themes\phukien247\content.php:6
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\w...', false, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php(56): get_template_part('content')
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\content.php on line 6
+
+2022-11-28T06:07:07+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\wordpress\wp-content\themes\phukien247\content.php:6
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\w...', false, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\phukien247\index.php(56): get_template_part('content')
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\content.php on line 6
+

@@ -1,0 +1,102 @@
+2022-11-29T05:37:59+00:00 CRITICAL Uncaught Error: Call to undefined function wp_header() in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\content.php:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php(56): get_template_part('content')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\content.php on line 1
+
+2022-11-29T06:28:27+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php on line 68
+
+2022-11-29T06:50:19+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php on line 68
+
+2022-11-29T08:11:52+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\content.php:9
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\sidebar.php(36): get_template_part('content')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php(11): get_sidebar()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\content.php on line 9
+
+2022-11-29T08:23:45+00:00 CRITICAL Uncaught Error: Call to undefined function the_permarlink() in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\sidebar.php:42
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php(11): get_sidebar()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\sidebar.php on line 42
+
+2022-11-29T08:23:54+00:00 CRITICAL Uncaught Error: Call to undefined function the_permarlink() in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\sidebar.php:42
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\index.php(11): get_sidebar()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\sidebar.php on line 42
+
+2022-11-29T11:52:39+00:00 CRITICAL Uncaught Error: Call to undefined function the_tag() in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\single.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\phukien247\single.php on line 20
+
+2022-11-29T15:24:13+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\wamp64\www\wordpress\wp-content\themes\phukien247\woocommerce\archive-product.php on line 22
+
+2022-11-29T17:36:01+00:00 CRITICAL Uncaught Error: Call to undefined function hk_get_thumb() in C:\wamp64\www\wordpress\wp-content\themes\phukien247\header.php:106
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\phukien247\page-full-width.php(4): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\header.php on line 106
+
+2022-11-29T17:36:06+00:00 CRITICAL Uncaught Error: Call to undefined function hk_get_thumb() in C:\wamp64\www\wordpress\wp-content\themes\phukien247\header.php:106
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\phukien247\page-full-width.php(4): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\phukien247\header.php on line 106
+
